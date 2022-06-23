@@ -1,0 +1,55 @@
+.projects {
+    padding-bottom: 200px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects .projects-set .project-box {
+    background: #DDD;
+    background: var(--main-color);
+    color: #FFF;
+    padding: 15px;
+    float: left;
+    width: 49%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .projects .projects-set .project-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.projects .projects-set .project-box:nth-of-type(odd) {
+    margin-right: 1%;
+}
+
+.projects .projects-set .project-box .img-container {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.projects .projects-set .project-box .img-container img {
+    height: 100%;
+}
+
+.projects .projects-set .project-box a {
+    color: #FFF;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.projects .projects-set .project-box a:hover {
+    color: #777ea5;
+}
+
+.projects .projects-set .project-box a h3 {
+    padding-top: 7px;
+}

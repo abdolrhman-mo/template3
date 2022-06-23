@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "poppins";
+    src: url("../assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "eurostile";
+    src: url("../assets/fonts/eurostile/EurostileBold.ttf");
+}
+
+:root {
+    --main-color: rgb(32, 30, 51);
+    --light-color: #3f51b5;
+    --title-font: "eurostile"
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins";
+}
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Start Footer */
+
+footer {
+    color: #FFF;
+    background: var(--main-color);
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* End Footer */
+
+/* Start Container Media Queries */
+@media (max-width: 767px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 680px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 900px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px
+    }
+}
+
+/* End Container Media Queries */

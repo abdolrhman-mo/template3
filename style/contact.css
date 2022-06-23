@@ -1,0 +1,25 @@
+.contact {
+    color: #FFF;
+    background: var(--main-color);
+    padding: 80px 0;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.contact h3 {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+    opacity: 0.5;
+}
+
+.contact h2 {
+    font-family: var(--title-font);
+    font-size: 40px;
+    margin-bottom: 120px;
+}
+
+.contact p span {
+    color: #bab9b9;
+}
