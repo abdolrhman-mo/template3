@@ -6,7 +6,7 @@
     padding: 80px 0;
     float: left;
     height: 530px;
-    width: calc(98% / 3);
+    width: calc(98% / 2);
     text-align: center;
     border: 1px solid #DDD;
     background-color: #FFF;
@@ -16,13 +16,10 @@
 }
 
 @media (max-width: 767px) {
-    .skills .skill-box:first-of-type {
+    .skills .skill-box {
         width: 100%;
         height: 400px;
         margin-bottom: 20px;
-    }
-    .skills .skill-box:not(:first-of-type) {
-        width: calc(98%/2);
     }
 }
 
